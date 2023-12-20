@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import getUser from '@/lib/getUser'
+// import getUser from '@/lib/getUser'
 import Link from "next/link"
 
 export const metadata: Metadata = {
@@ -9,10 +9,16 @@ export const metadata: Metadata = {
 
 
 export default async function UsersPage() {
-    const userData: Promise<User> = getUser()
+    // const userData: Promise<User> = getUser()
 
-    const user = await userData
+    // const user = await userData
 
+
+    const user = {
+        payload: {
+            userName: "Wabjay"
+        }
+    }
     console.log(user) // Did you find where this appears?
 
     const content = (
