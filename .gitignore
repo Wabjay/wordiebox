@@ -38,3 +38,5 @@ next-env.d.ts
 # Main time
 /lib
 /app/users
+
+.env

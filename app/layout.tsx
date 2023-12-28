@@ -5,9 +5,23 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Game App',
+  title: 'Wordiebox',
   description: 'PixelGum Studio',
-  keywords: 'Game',
+  keywords: 'Game, Word Game',
+  icons: {
+    icon: [
+      {
+        media: '(prefers-color-scheme: light)',
+        url: '/public/Logo.svg',
+        href: '/public/Logo.svg',
+      },
+      {
+        media: '(prefers-color-scheme: dark)',
+        url: '/public/Logo.svg',
+        href: '/public/Logo.svg',
+      },
+    ],
+  },
 }
 
 export default function RootLayout({

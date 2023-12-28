@@ -59,7 +59,7 @@ const LandingNavbar = () => {
                                             className="bg-white border-[#1C1C1C] border shadow-darkbox py-2 px-4 text-sm font-medium focus:outline-none ">
                                             Sign In</Link>
                                         <Link smooth href="/#pricing"
-                                            className="bg-[#FC0] border-[#1C1C1C] border shadow-darkbox py-2 px-4 text-sm font-medium focus:outline-none ">
+                                            className="bg-[#FC0] hover:bg-[#EDBA00] border-[#1C1C1C] border shadow-darkbox py-2 px-4 text-sm font-medium focus:outline-none ">
                                             Create Account</Link>
                                     </div>
 

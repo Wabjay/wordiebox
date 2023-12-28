@@ -19,7 +19,7 @@ export default async function UsersPage() {
             userName: "Wabjay"
         }
     }
-    console.log(user) // Did you find where this appears?
+    // console.log(user) // Did you find where this appears?
 
     const content = (
         <section>

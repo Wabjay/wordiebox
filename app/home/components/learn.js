@@ -10,7 +10,7 @@ const Learn = () => {
                         vocabularies</p>
                     <p className=' w-[90%] mx-auto text-[16px] leading-[22px] text-[#FFF] mb-[40px] tablet:w-[500px] laptop:w-[620px] tablet:text-[20px] tablet:leading-[28px]'>Get started to learn more, improve your word history and start making big waves</p>
                     <Link smooth href='/#pricing'
-                        className="bg-[#FC0] border-[#1C1C1C] border shadow-darkbox inline-flex items-center justify-center px-2 laptop:px-4 h-9 laptop:h-12 text-[#1C1C1C]  text-14 font-medium laptop:text-[16px] laptop:leading-[22px] focus:outline-none ">
+                        className="bg-[#FC0]  hover:bg-[#EDBA00] border-[#1C1C1C] border shadow-darkbox inline-flex items-center justify-center px-2 laptop:px-4 h-9 laptop:h-12 text-[#1C1C1C]  text-14 font-medium laptop:text-[16px] laptop:leading-[22px] focus:outline-none ">
                         Learn a new word with their meaning</Link>
                 </div>
             </div>` `

@@ -16,6 +16,13 @@
   }
 }
 
+@font-face {
+  font-family: "Comic Sans MS";
+  src: local("Comic Sans MS"),
+   url("/public/assets/font/ComicSansMS3.ttf") format("truetype");
+  font-weight: normal;
+ }
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

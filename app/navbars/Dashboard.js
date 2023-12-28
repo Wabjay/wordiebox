@@ -23,7 +23,7 @@ const DashboardNavbar = () => {
     const [pop, setPop] = useState(false)
     const isSmallScreen = useMediaQuery({ query: '(max-width: 1023px)' })
 const pathname = usePathname().split('/').pop()
-console.log(pathname)
+// console.log(pathname)
     const toggleNavbar = () => {
         visibility ? setVisibility(false) : setVisibility(true)
     }
