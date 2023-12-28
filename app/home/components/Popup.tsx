@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-export default function Popup({visible, status, email, updateView}) {
+export default function Popup({visible, status, email, updateView}: {visible:boolean, status: string, email:string, updateView:any}) {
   const [content, setContent] = useState<Feedback>();
 
 
