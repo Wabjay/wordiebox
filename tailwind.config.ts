@@ -5,6 +5,7 @@ const config: Config = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     fontFamily: {
@@ -27,6 +28,9 @@ const config: Config = {
       }
     },
     fontSize: {
+      '10': ['10px', {
+        lineHeight: '12px'
+      }],
       '12': ['12px', {
         lineHeight: '16px'
       }],
