@@ -20,7 +20,7 @@ export default function Success() {
     <div className="px-[10px] py-4 bg-[#C2FFD9] border border-[#1C1C1C] shadow-darkbox w-full max-w-[462px] mx-auto ">
         <p className="capitalize font-medium text-[#007A2F] text-12 tablet:text-14 laptop:text-16 mb-1 flex justify-center gap-2">
           <span className="">{data.number}</span>
-        ---> <span className="">{data.scrambled}</span></p>
+          {' ---> '} <span className="">{data.scrambled}</span></p>
       </div>
     <div className="px-[10px] py-4 bg-white border border-[#1C1C1C] shadow-darkbox w-full max-w-[462px] mx-auto min-h-[100px]">
         <p className="font-medium text-12 tablet:text-14 laptop:text-16 mb-1">
