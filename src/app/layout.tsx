@@ -14,17 +14,34 @@ export const metadata: Metadata = {
       {
         rel: 'icon',
         media: '(prefers-color-scheme: light)',
-        url: '../../public/icon.png',
-        href: '../../public/icon.png',
+        url: '/icon.png',
+        href: '/icon.png',
       },
       {
         rel: 'icon',
         media: '(prefers-color-scheme: dark)',
-        url: '../../public/icon.png',
-        href: '../../public/icon.png',
+        url: '/icon.png',
+        href: '/icon.png',
       },
     ],
   },
+  openGraph: {
+    type: "website",
+    url: "https://wordiebox.com",
+    title: "Wordiebox - Guess words puzzles from numbers",
+    description: "Wordiebox is a puzzle word game to guess new words from its meaning, Fill in words based on number representation from the number index before  the time runs down. Compete with your friends to earn points and move top of the leaderboard in no time.",
+    siteName: "Wordiebox",
+    images: [{
+      url: "https://wordiebox.com/icon.png",
+    }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "https://wordiebox.com",
+    images: "https://wordiebox.com/icon.png",
+    title: "Wordiebox - Guess words puzzles from numbers",
+    description: "Wordiebox is a puzzle word game to guess new words from its meaning, Fill in words based on number representation from the number index before  the time runs down. Compete with your friends to earn points and move top of the leaderboard in no time."
+  }
 }
 
 export default function RootLayout({
