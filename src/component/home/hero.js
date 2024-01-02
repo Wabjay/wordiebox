@@ -80,8 +80,8 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="">
-            <Image src={HeroImage} alt='Hero' className='w-full laptop:w-[390px] desktop:w-[569px]' />
+          <div className="w-full laptop:w-[390px] desktop:w-[569px] relative">
+            <Image src={HeroImage} alt='Hero' className='' />
           </div>
         </div>
         <Popup visible={show} updateView={close} status={status} email={email} />

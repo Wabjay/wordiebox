@@ -1,11 +1,11 @@
 import Landing from '@/src/component/navbars/Landing'
 import { Metadata } from 'next'
-
+import {tags} from "@/src/lib/tags"
 
 export const metadata: Metadata = {
     title: 'Wordiebox - Guess words puzzles from numbers',
     description: 'Wordiebox is a puzzle word game to guess new words from its meaning, Fill in words based on number representation from the number index before  the time runs down. Compete with your friends to earn points and move top of the leaderboard in no time.',
-    keywords: 'Game, Wordle Game, Guess Word,Guessing',
+    keywords: tags,
     icons: {
       icon: [
         {

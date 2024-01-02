@@ -15,8 +15,8 @@ const Leaderboard = () => {
            <p className="text-[#1C1C1C] font-normal text-16 tablet:text-20 ">Compete with your friends from around the world learning more vocabularies, increase your reputation and win wonderful prizes.</p>
            </div>
          </div>
-         <div className="">
-           <Image src={LeaderboardImage} alt='Leaderboard' className='w-full laptop:w-[387px] desktop:w-[440px]'/>
+         <div className=" w-full laptop:w-[387px] desktop:w-[440px] relative">
+           <Image src={LeaderboardImage}  alt='Leaderboard' />
          </div>
        
        </div>

@@ -7,8 +7,8 @@ const Points = () => {
     <div className='w-full bg-[#FFFCEC]' id='points'>
     <div className='w-full laptop:max-w-[1152px] px-4 tablet:px-6 laptop:px-8 desktop:px-0 mx-auto py-[50px] tablet:py-[80px] laptop:py-[100px]'>
     <div className="flex flex-col gap-[50px] tablet:gap-20 laptop:flex-row  laptop:justify-between laptop:items-center">
-    <div className="">
-           <Image src={PointImage} alt='Point' className='w-full laptop:w-[390px] desktop:w-[432px]'/>
+    <div className='relative w-full laptop:w-[390px] desktop:w-[432px]'>
+           <Image src={PointImage} alt='Point'  className=''/>
          </div>
 
          <div className="laptop:w-[490px]">
