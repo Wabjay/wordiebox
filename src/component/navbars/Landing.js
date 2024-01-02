@@ -21,7 +21,7 @@ const LandingNavbar = () => {
             <nav className="sticky top-0 z-10  block items-center  h-[40px] my-[10px]">
                 <div
                     className="flex flex-wrap place-self-center items-center justify-between  w-full laptop:max-w-[1152px] mx-auto">
-                    <Link href='/home' className="flex items-center" onClick={() => setVisibility(false)}>
+                    <Link href='/' className="flex items-center" onClick={() => setVisibility(false)}>
                         <Image src={Logo} width="119" height="37" className="w-[119px] h-[37px] mr-3"
                             alt="Game Logo" />
                     </Link>
@@ -50,9 +50,9 @@ const LandingNavbar = () => {
                                 <div className="flex font-medium flex-row items-center gap-[50px] desktop:gap-[134px]">
 
                                     <ul className="flex font-medium flex-row items-center gap-6 desktop:gap-9">
-                                        <li className=""> <Link smooth href='/home#game' className="text-[##636363] text-[14px] font-medium">How our game works</Link> </li>
-                                        <li className=""> <Link smooth href='/home#points' className="text-[##636363] text-[14px] font-medium">Point and credit Rewards</Link> </li>
-                                        <li className="">  <Link href='/home#leaderboard' className="text-[##636363] text-[14px] font-medium">Leaderboard System</Link> </li>
+                                        <li className=""> <Link smooth href='/#game' className="text-[##636363] text-[14px] font-medium">How our game works</Link> </li>
+                                        <li className=""> <Link smooth href='/#points' className="text-[##636363] text-[14px] font-medium">Point and credit Rewards</Link> </li>
+                                        <li className="">  <Link href='/#leaderboard' className="text-[##636363] text-[14px] font-medium">Leaderboard System</Link> </li>
                                     </ul>
                                     <div className="flex font-medium flex-row items-center gap-4">
                                         <Link smooth href="/auth/signIn"
