@@ -55,7 +55,7 @@ const pathname = usePathname().split('/').pop()
         <div className="flex flex-row font-medium items-center justify-between laptop:justify-normal laptop:gap-2">
             <div className="flex flex-row font-medium items-center gap-2">
                 <div  className="relative  w-9 h-9 laptop:order-1">
-               <Image src={Profile}  alt="Avatar" />
+               <Image src={Profile} fill alt="Avatar" />
                 </div>
         <p className="py-2 px-0 text-12 font-semibold">Awo bangalee</p> 
             </div>
@@ -71,12 +71,12 @@ const pathname = usePathname().split('/').pop()
              <div className={`mb-4 tablet:ml-[150px] w-[205px] laptop:absolute laptop:ml-[-48px] laptop:mb-0 laptop:top-[60px] flex flex-col gap-2 text-[##636363] px-4 py-2 bg-white border-[#1C1C1C] border shadow-darkbox focus:outline-none`}>
             <Link smooth href='/' onClick={toggleNavbar} className="flex items-center gap-2 py-1">
                 <div  className="relative w-4 h-4 desktop:w-5 desktop:h-5">
-                <Image src={User}  alt="User avatar" />
+                <Image src={User} fill alt="User avatar" />
                 </div>
                 <span>Profile</span></Link>
                 <Link smooth href='/' onClick={toggleNavbar} className="flex items-center gap-2 py-1">
                     <div  className="relative w-4 h-4 desktop:w-5 desktop:h-5">
-                <Image src={Logout}  alt="Logout" className="w-4 h-4 desktop:w-5 desktop:h-5" />
+                <Image src={Logout} fill alt="Logout" className="w-4 h-4 desktop:w-5 desktop:h-5" />
                     </div>
                 <span>Logout</span></Link>
         </div>
@@ -140,7 +140,7 @@ const pathname = usePathname().split('/').pop()
                                                 <li key={index}>
                                             <Link smooth href={menu.link} className={`text-[##636363] flex items-center py-2 px-1 desktop:p-2 gap-1 hover:bg-[#FFF5C4] hover:border-[#1C1C1C] hover:border hover:shadow-darkbox focus:outline-none ${pathname === menu.title.toLowerCase() && "bg-[#FFF5C4] border-[#1C1C1C] border shadow-darkbox"}`}>
                                                <div className="relative w-4 h-4 desktop:w-5 desktop:h-5">
-                                               <Image src={menu.src}  alt="" />
+                                               <Image src={menu.src} fill alt="" />
                                                </div>
                                                <span>{menu.title}</span></Link>
                                         </li>

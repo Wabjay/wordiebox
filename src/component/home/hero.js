@@ -81,7 +81,7 @@ const Hero = () => {
           </div>
 
           <div className="w-full laptop:w-[390px] desktop:w-[569px] relative">
-            <Image src={HeroImage} alt='Hero' className='' />
+            <Image src={HeroImage}  alt='Hero' className='' />
           </div>
         </div>
         <Popup visible={show} updateView={close} status={status} email={email} />

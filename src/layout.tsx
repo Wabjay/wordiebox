@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import GoogleAnalytics from '@/src/component/GoogleAnalytics'
+import GoogleAnalytics from '@/src/app/GoogleAnalytics'
+import Logo from '@/public/Logo.svg'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,14 +15,14 @@ export const metadata: Metadata = {
       {
         rel: 'icon',
         media: '(prefers-color-scheme: light)',
-        url: '/public/Logo.svg',
-        href: '/public/Logo.svg',
+        url: './../public/Logo.svg',
+        href: './../public/Logo.svg',
       },
       {
         rel: 'icon',
         media: '(prefers-color-scheme: dark)',
-        url: '/public/Logo.svg',
-        href: '/public/Logo.svg',
+        url: './../public/Logo.svg',
+        href: './../public/Logo.svg',
       },
     ],
   },
