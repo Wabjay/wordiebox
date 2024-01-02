@@ -14,14 +14,14 @@ export const metadata: Metadata = {
       {
         rel: 'icon',
         media: '(prefers-color-scheme: light)',
-        url: '@/public/Logo.svg',
-        href: '/public/Logo.svg',
+        url: '../../public/icon.png',
+        href: '../../public/icon.png',
       },
       {
         rel: 'icon',
         media: '(prefers-color-scheme: dark)',
-        url: '@/public/Logo.svg',
-        href: '/public/Logo.svg',
+        url: '../../public/icon.png',
+        href: '../../public/icon.png',
       },
     ],
   },
