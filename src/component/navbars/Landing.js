@@ -35,14 +35,17 @@ const LandingNavbar = () => {
                                         <Image src={Close} width="24" height="24" className="w-6 mr-0 ml-auto fixed left-[208px] top-4" alt="Hambugger Icon" onClick={toggleNavbar} />
 
 
-                                        <ul className="flex flex-col font-medium gap-2">
+                                        {/* <ul className="flex flex-col font-medium gap-2">
                                             <Link smooth href="/auth/signIn" onClick={toggleNavbar}
                                                 className="hover:bg-white hover:border-[#1C1C1C] hover:border hover:shadow-darkbox py-2 px-2 text-sm font-medium focus:outline-none ">
                                                 Sign In</Link>
                                             <Link smooth href="/#pricing" onClick={toggleNavbar}
                                                 className="hover:bg-[#FC0] hover:border-[#1C1C1C] hover:border hover:shadow-darkbox py-2 px-2 text-sm font-medium focus:outline-none ">
                                                 Create Account</Link>
-                                        </ul>
+                                        </ul> */}
+                                        <Link smooth href="/" onClick={toggleNavbar}
+                                                className="hover:bg-[#FC0] hover:border-[#1C1C1C] hover:border hover:shadow-darkbox py-2 px-2 text-sm font-medium focus:outline-none ">
+                                                Join waitlist</Link>
 
                                     </div>}
                             </>
@@ -54,14 +57,17 @@ const LandingNavbar = () => {
                                         <li className=""> <Link smooth href='/#points' className="text-[##636363] text-[14px] font-medium">Point and credit Rewards</Link> </li>
                                         <li className="">  <Link href='/#leaderboard' className="text-[##636363] text-[14px] font-medium">Leaderboard System</Link> </li>
                                     </ul>
-                                    <div className="flex font-medium flex-row items-center gap-4">
+                                    {/* <div className="flex font-medium flex-row items-center gap-4">
                                         <Link smooth href="/auth/signIn"
                                             className="bg-white border-[#1C1C1C] border shadow-darkbox py-2 px-4 text-sm font-medium focus:outline-none ">
                                             Sign In</Link>
                                         <Link smooth href="/#pricing"
                                             className="bg-[#FC0] hover:bg-[#EDBA00] border-[#1C1C1C] border shadow-darkbox py-2 px-4 text-sm font-medium focus:outline-none ">
                                             Create Account</Link>
-                                    </div>
+                                    </div> */}
+                                    <Link smooth href="/"
+                                            className="bg-[#FC0] hover:bg-[#EDBA00] border-[#1C1C1C] border shadow-darkbox py-2 px-4 text-sm font-medium focus:outline-none ">
+                                            Join waitlist</Link>
 
 
                                 </div>
