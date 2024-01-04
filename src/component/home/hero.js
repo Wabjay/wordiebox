@@ -71,17 +71,17 @@ const Hero = () => {
           <div className="laptop:w-[560px]">
             <div className="flex flex-col gap-4 tablet:gap-6">
               <h1 className="text-[#1C1C1C] font-bold text-32 tablet:text-48">Improve your word vocabulary by guessing words</h1>
-              <p className="text-[#1C1C1C] font-normal text-16 tablet:text-24">Compete with your friends, guess word from numbers before the timer runs out.</p>
+              <h2 className="text-[#1C1C1C] font-normal text-16 tablet:text-24">Compete with your friends, guess word from numbers before the timer runs out.</h2>
             </div>
 
             <div className="mt-10 flex flex-col gap-4 tablet:flex-row tablet:h-12 text-sm tablet:text-[16px] leading-5 tablet:leading-[22px]">
               <Button text={<input type="email" name="email" placeholder='Enter email address' value={email} onChange={(e) => setEmail(e.target.value)} className={`outline-none h-fit w-full bg-transparent `} />} color="white" style={`bg-white w-full justify-start ${error &&  'border-[#E03C00] "'}`} />
-              <p onClick={send}><Button text='Join our waitlist' style='w-full tablet:w-fit whitespace-nowrap tablet:py-3 tablet:px-4' /></p>
+              <button onClick={send}><Button text='Join our waitlist' style='w-full tablet:w-fit whitespace-nowrap tablet:py-3 tablet:px-4' /></button>
             </div>
           </div>
 
           <div className="w-full laptop:w-[390px] desktop:w-[569px] relative">
-            <Image src={HeroImage}  alt='Hero' className='' />
+            <Image src={HeroImage} full alt='Hero' className='' />
           </div>
         </div>
         <Popup visible={show} updateView={close} status={status} email={email} />

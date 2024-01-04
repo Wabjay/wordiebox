@@ -40,14 +40,14 @@ useEffect(()=>{
     visible && (
       <div className="w-[100vw] h-[100vh] flex items-center justify-center bg-overlay fixed top-0 left-0 z-20">
         <div className="p-6 bg-[#F8F7F1] border text-center border-[#1C1C1C] w-full max-w-[398px]">
-          <p className={`text-48 font-bold font-comic mb-8 ${status === "success" ? 'text-[#00A33F]' :  'text-[#F64300]'}`}>{content?.title}</p>
+          <h2 className={`text-48 font-bold font-comic mb-8 ${status === "success" ? 'text-[#00A33F]' :  'text-[#F64300]'}`}>{content?.title}</h2>
           <p className="text-20">{content?.body}</p>
-          <p
+          <button
             onClick={()=>updateView(false)}
             className="mt-10 cursor-pointer bg-[#FC0] hover:bg-[#EDBA00]  border-[#1C1C1C] border shadow-darkbox py-2 px-2 text-sm font-medium focus:outline-none "
           >
             Go to homepage
-          </p>
+          </button>
         </div>
       </div>
     )

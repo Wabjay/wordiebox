@@ -13,7 +13,7 @@ const Points = () => {
 
          <div className="laptop:w-[490px]">
            <div className="flex flex-col gap-4 tablet:gap-6">
-           <p className="text-[#1C1C1C] font-bold text-20 tablet:text-24 laptop:text-32 whitespace-nowrap">Points and credit rewards</p>
+           <h1 className="text-[#1C1C1C] font-bold text-20 tablet:text-24 laptop:text-32 whitespace-nowrap">Points and credit rewards</h1>
            <p className="text-[#1C1C1C] font-normal text-16 tablet:text-20">Get points when you guess a correct word, increase your points score to earn more reputation, Invite your friends to play and earn more credits.</p>
            </div>
 

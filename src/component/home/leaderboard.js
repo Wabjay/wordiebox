@@ -11,7 +11,7 @@ const Leaderboard = () => {
 
          <div className="laptop:w-[490px]">
            <div className="flex flex-col gap-4 tablet:gap-6">
-           <p className="text-[#1C1C1C] font-bold text-20 tablet:text-24 laptop:text-32 whitespace-nowrap">Leaderboard system</p>
+           <h1 className="text-[#1C1C1C] font-bold text-20 tablet:text-24 laptop:text-32 whitespace-nowrap">Leaderboard system</h1>
            <p className="text-[#1C1C1C] font-normal text-16 tablet:text-20 ">Compete with your friends from around the world learning more vocabularies, increase your reputation and win wonderful prizes.</p>
            </div>
          </div>

@@ -14,18 +14,18 @@ const Footer = () => {
           </Link>
 
           <div className='flex flex-col gap-3 desktop:gap-4'>
-            <p className='text-[16px] font-semibold leading-[22px] text-[#484848] mb-2'>PRODUCTS</p>
+            <h2 className='text-[16px] font-semibold leading-[22px] text-[#484848] mb-2'>PRODUCTS</h2>
             <Link smooth href='/#works' className='text-sm font-normal text-[#484848] laptop:text-[16px] leading-[22px] '>How it works</Link>
             <Link smooth href='/#faq' className='text-sm font-normal text-[#484848] laptop:text-[16px] leading-[22px] '>Points system</Link>
             <Link smooth href='/#pricing' className='text-sm font-normal text-[#484848] laptop:text-[16px] leading-[22px] '>Leaderboard</Link>
           </div>
           <div className='flex flex-col gap-3 desktop:gap-4'>
-            <p className='text-[16px] font-semibold leading-[22px] text-[#484848] mb-2'>LEGAL</p>
+            <h2 className='text-[16px] font-semibold leading-[22px] text-[#484848] mb-2'>LEGAL</h2>
             <Link href='/terms' className='text-sm font-normal text-[#484848] laptop:text-[16px] leading-[22px] '>Terms and Conditions</Link>
             <Link href='/policy' className='text-sm font-normal text-[#484848] laptop:text-[16px] leading-[22px] '>Privacy policy</Link>
           </div>
           <div className='flex flex-col gap-3 desktop:gap-4'>
-            <p className='text-[16px] font-semibold leading-[22px] text-[#484848] mb-2'>CONTACT INFORMATION</p>
+            <h2 className='text-[16px] font-semibold leading-[22px] text-[#484848] mb-2'>CONTACT INFORMATION</h2>
             <a href="mailto:pixelgum.design@gmail.com" className='text-sm font-normal text-[#484848] laptop:text-[16px] leading-[22px] underline'>Pixelgum.design@gmail.com</a>
           </div>
         </div>

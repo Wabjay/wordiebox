@@ -39,9 +39,9 @@ export default function Game() {
       </h1>
       {numbers}
       <div className="px-[10px] py-4 bg-white border border-[#1C1C1C] shadow-darkbox w-full max-w-[462px] mx-auto min-h-[100px]">
-        <p className="font-medium text-12 tablet:text-14 laptop:text-16 mb-1">
+        <h4 className="font-medium text-12 tablet:text-14 laptop:text-16 mb-1">
           Word meaning{" "}
-        </p>
+        </h4>
         <p className="text-10 tablet:text-12 laptop:text-14">{data.meaning}</p>
       </div>
       <Answer length={word.length} />

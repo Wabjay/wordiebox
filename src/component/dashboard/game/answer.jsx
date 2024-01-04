@@ -12,7 +12,7 @@ const Answer = ({length}) => {
     },[otp])
   return (
     <div className="my-10">
-    <p className="font-semibold text-12 tablet:text-14 laptop:text-16 mb-2">Enter Word Here</p>
+    <h5 className="font-semibold text-12 tablet:text-14 laptop:text-16 mb-2">Enter Word Here</h5>
     <OTPInput
     value={otp}
     onChange={setOtp}
