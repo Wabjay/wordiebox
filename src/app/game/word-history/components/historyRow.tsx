@@ -1,8 +1,8 @@
 "use client"
 import React, { useState } from "react";
 import Image, { StaticImageData } from "next/image";
-import Share from "@/public/Share.svg";
-import View from "@/public/View.svg";
+import Share from "@/public/share.svg";
+import View from "@/public/view.svg";
 import Fail from "./fail";
 import Success from "./success";
 export default function HistoryRow({
