@@ -17,7 +17,7 @@ export default function Game() {
 
  
 
-  const word = Array.from(data.scrambled);
+  const word = Array.from(data.number);
 
   const numbers: ReactElement = (
     <div className="mx-auto text-center w-fit flex gap-3 tablet:gap-4">

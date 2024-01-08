@@ -5,12 +5,7 @@ type StoreState = {
   visible: boolean;
   showText: boolean;
   status: boolean;
-  data: {
-    scrambled: string;
-    number: number[];
-    meaning: string;
-    correct: string;
-  };
+  data: Game
   correctWord: string;
 };
 
@@ -19,13 +14,16 @@ const initialState: StoreState = {
   showText: false,
   status: false,
   data: {
-    scrambled: "icdpanha",
-    number: [9, 3, 4, 16, 1, 14, 8, 1],
+    scrambled: "wordiebox",
+    number: [4, 1, 14, 8, 3,9,6,0],
     meaning:
       "an illness, injury, or condition that makes it difficult for someone to do some things that other people do, and that is usually permanent or lasts for a long time.",
-    correct: "handicap",
+    correct: "hand",
+    date: '20th Apr,2023',
+    status: true,
+    point: 4
   },
-  correctWord: "handicap",
+  correctWord: "hand",
 };
 
 interface Store extends StoreState {
@@ -34,12 +32,7 @@ interface Store extends StoreState {
   setStatus: (status: boolean) => void;
   resetState: () => void;
   setCorrectWord: (word: string) => void;
-  getData: (data: {
-    scrambled: string;
-    meaning: string;
-    correct: string;
-    number: number[];
-  }) => void;
+  getData: (data: Game ) => void;
 }
 
 export const store = create<Store>((set, get) => ({

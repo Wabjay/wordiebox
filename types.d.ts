@@ -21,3 +21,13 @@ type User = {
           __v: number
         }
 }
+
+type Game = {
+    number : number[],
+    scrambled: string,
+    correct: string,
+    date: string,
+    meaning: string,
+    status: boolean,
+    point: number,
+  }
